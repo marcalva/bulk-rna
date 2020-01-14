@@ -39,6 +39,9 @@ this file by hand with the columns
 |sample|instrument| run_number| flow_cell| lane| path|
 |-------|--------|------------|-----------|----|---|
 
+where path contains the path to the fastq files with R1 and R2 separated by 
+a semicolon, for example `R1.fastq.gz;R2.fastq.gz`.
+
 
 ```bash
 cd bin/gencode26_align
@@ -136,6 +139,5 @@ cd bin/gencode26_align
 qsub run_featureCounts_pass2.sh
 cd ../../
 ```
-
 
 
