@@ -33,7 +33,12 @@ that the fastq files be structured in a directory where each folder in this
 parent directory is a sample directory, and all fastq files within the sample 
 directory come from that one sample. This also assumes that the reads are 
 paired. I don't have anything for single-end reads at the moment. By 
-default, the key is output in a file `sample/sample.fastq.txt`.
+default, the key is output in a file `sample/sample.fastq.txt`. You can make 
+this file by hand with the columns
+
+|sample|instrument| run_number| flow_cell| lane| path|
+|_____|__________|____________|_________|_______|___|
+
 
 ```bash
 cd bin/gencode26_align
