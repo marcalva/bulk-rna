@@ -37,7 +37,7 @@ default, the key is output in a file `sample/sample.fastq.txt`. You can make
 this file by hand with the columns
 
 |sample|instrument| run_number| flow_cell| lane| path|
-|_____|__________|____________|_________|_______|___|
+|-------|--------|------------|-----------|----|---|
 
 
 ```bash
